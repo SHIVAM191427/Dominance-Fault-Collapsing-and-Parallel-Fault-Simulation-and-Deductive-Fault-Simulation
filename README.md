@@ -29,7 +29,7 @@ FANOUT 5 6 10
 FANOUT 18 19 20 22
 ```
 
-![mux-01]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4a85ae81-c9ca-4775-8209-b2efb17f9cd7" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4a85ae81-c9ca-4775-8209-b2efb17f9cd7" />
 
 
 
@@ -49,7 +49,7 @@ The code first initializes fault at each node.
 Consider fault is present at each node. Then traverse throuth output of circuit to input of circuit and Collapse fault considering rules for dominance fault collapsing.
 
 
-![DominanceFault-01]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ddc152e9-7084-4e08-828c-2de10183bce9" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ddc152e9-7084-4e08-828c-2de10183bce9" />
 
 
 
@@ -58,10 +58,10 @@ Parallel fault simulation most effective, Circuit consists of only logic gates w
 
 The code takes input_vector as input and perform parallel fault simulation and tabulate the simulated output and calculate fault coverage for corresponding input vector.
 
-![pf2]<img width="1948" height="3083" alt="image" src="https://github.com/user-attachments/assets/55cf676e-dcb5-4ac3-9760-7ff259ac34af" />
+<img width="1948" height="3083" alt="image" src="https://github.com/user-attachments/assets/55cf676e-dcb5-4ac3-9760-7ff259ac34af" />
 
 
-![pfsr]<img width="1904" height="1904" alt="image" src="https://github.com/user-attachments/assets/dd3cd9b1-c00d-4e3a-a32a-c2517ed4407b" />
+<img width="1904" height="1904" alt="image" src="https://github.com/user-attachments/assets/dd3cd9b1-c00d-4e3a-a32a-c2517ed4407b" />
 
 
 
@@ -69,10 +69,10 @@ The code takes input_vector as input and perform parallel fault simulation and t
 Use gate level model with zero or unit delay and two level signal.
 This is One-pass simulation, where each line k contains a list Lk of faults detectable on it. Considering true-value simulation of each vector, fault lists of all gate output lines are updated using set-theoretic rules, signal values, and gate. 
 
-![drf]<img width="1470" height="986" alt="image" src="https://github.com/user-attachments/assets/3e54fc0e-8a77-4362-aec5-2f231bf933bc" />
+<img width="1470" height="986" alt="image" src="https://github.com/user-attachments/assets/3e54fc0e-8a77-4362-aec5-2f231bf933bc" />
 
 
-![df]<img width="1470" height="986" alt="image" src="https://github.com/user-attachments/assets/8c40d1a0-9b26-447e-a7be-0c494739e7f8" />
+<img width="1470" height="986" alt="image" src="https://github.com/user-attachments/assets/8c40d1a0-9b26-447e-a7be-0c494739e7f8" />
 
 
 
